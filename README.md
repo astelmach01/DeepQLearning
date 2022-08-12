@@ -5,10 +5,14 @@
 
 #### Install PyTorch
 
-When I run ```pip-list```, the PyTorch version I am using is ```1.12.1+cu113```
+##### CUDA 11.3 Installation
 
 ```shell
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+```
+##### CUDA 11.6 Installation
+```shell
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
 #### Install Requirements
@@ -18,5 +22,7 @@ pip install -r requirements.txt
 
 
 ### Running
-
+```shell
+python -m app run
+```
 

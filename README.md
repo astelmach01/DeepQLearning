@@ -15,7 +15,13 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
-#### Install Requirements
+##### CPU Installation
+
+```shell
+pip3 install torch torchvision torchaudio
+```
+
+### Install Requirements
 ```shell
 pip install -r requirements.txt
 ```

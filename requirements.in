@@ -1,2 +1,1 @@
-torch
-flake8
+gym<0.20,>=0.17

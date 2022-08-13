@@ -20,5 +20,3 @@ class BaseAgent:
 
     def gradient_descent(self) -> None:
         raise NotImplementedError
-
-

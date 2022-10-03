@@ -40,5 +40,5 @@ def sweat(render=True):
 
     loop(env, agent, num_episodes, render=render)
 
-
-sweat()
+if __name__ == "__main__":
+    sweat()

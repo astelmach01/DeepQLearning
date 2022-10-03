@@ -80,4 +80,5 @@ class DeepQLearningAgent(BaseAgent):
 
         if type(state) == np.array:
             state = torch.Tensor(state)
+            
         return torch.argmax(self.model(state)).item()
